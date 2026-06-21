@@ -103,7 +103,7 @@ Outputs BB/100, VPIP, PFR, showdown win %, and bluff success rate. Saves a CSV a
 
 **Post-flop:** Evaluates best 5-card hand from all 7 cards (fixed treys off-by-one bug), calculates pot odds, detects draws, decides whether to value bet, bluff, c-bet, or check.
 
-**Opponent modeling:** Every action is recorded. After a few hands the bot knows who folds to 3-bets, who's a calling station, and who's just gambling.
+**Opponent modeling:** Every action is recorded. After a few hands the bot knows who folds to 3-bets, who's a calling station and who's just gambling.
 
 TAG, LAG, FISH, ROCK. Bot classifies each player and adjusts accordingly.
 
