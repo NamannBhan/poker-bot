@@ -384,7 +384,7 @@ export default function App() {
   }, [send]);
 
   const connect = useCallback((config) => {
-    const socket = new WebSocket("wss://poker-bot-backend.onrender.com/ws");
+    const socket = new WebSocket("poker-bot-production-284c.up.railway.app");
     ws.current = socket;
 
     socket.onopen = () => {
