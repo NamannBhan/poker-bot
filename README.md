@@ -106,6 +106,7 @@ Outputs BB/100, VPIP, PFR, showdown win %, and bluff success rate. Saves a CSV a
 **Opponent modeling:** Every action is recorded. After a few hands the bot knows who folds to 3-bets, who's a calling station, and who's just gambling.
 
 TAG, LAG, FISH, ROCK. Bot classifies each player and adjusts accordingly.
+
 TAG — tight and aggressive, only plays strong hands but bets them hard
 
 LAG — plays a wide range, applies constant pressure
