@@ -107,9 +107,13 @@ Outputs BB/100, VPIP, PFR, showdown win %, and bluff success rate. Saves a CSV a
 
 TAG, LAG, FISH, ROCK. Bot classifies each player and adjusts accordingly.
 TAG — tight and aggressive, only plays strong hands but bets them hard
+
 LAG — plays a wide range, applies constant pressure
+
 FISH — loose passive, calls everything, rarely raises
+
 ROCK — only comes alive with the nuts, folds everything else
+
 (I personally go LAG to TAG)
 
 ---
