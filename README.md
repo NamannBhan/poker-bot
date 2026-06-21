@@ -117,6 +117,18 @@ ROCK — only comes alive with the nuts, folds everything else
 
 (I personally go LAG to TAG)
 
+## Some of the thinkings of the bot:
+
+Risk profile by table size: More players at the table, the tighter the bot plays. Hand needs to be in a much higher percentile of all possible hands to be profitable (when there are more ppl)
+
+Range-based thinking: Bot thinks "what fraction of my opponent's range beats me?"
+
+Measures in EV tradeoffs: Weighs the scenarios between opponent's bluff and where your hand sits in their range
+
+When to call vs fold/raise: The bot weighs four things simultaneously: raw hand strength, effective equity against the opponent's range, pot odds, and how much is already invested. 
+
+Tightened the price the bot is willing to pay when facing a raise. Each change got validated across 2,000 and then 5,000 hands because what looked stable at 2,000 often broke at 5,000.
+
 ---
 
 ## Deployment
