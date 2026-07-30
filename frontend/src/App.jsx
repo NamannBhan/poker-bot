@@ -385,19 +385,19 @@ export default function App() {
   }, [send]);
 
   const connect = useCallback((config) => {
-    const socket = new WebSocket("wss://poker-bot-production-284c.up.railway.app/ws");
-    ws.current = socket;
+  const socket = new WebSocket(WS_URL);
+  ws.current = socket;
 
-    socket.onopen = () => {
-      setConnected(true);
-      socket.send(JSON.stringify({
-        cmd: "setup",
-        num_players: config.players,
-        big_blind: config.bb,
-        starting_chips: config.chips,
-        human_name: config.humanName || null,
-      }));
-    };
+  socket.onopen = () => {
+    setConnected(true);
+    socket.send(JSON.stringify({
+      cmd: "setup",
+      num_players: config.players,
+      big_blind: config.bb,
+      starting_chips: config.chips,
+      human_name: config.humanName || null,
+    }));
+  };
 
     socket.onmessage = (e) => {
       const msg = JSON.parse(e.data);
