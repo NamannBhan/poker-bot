@@ -10,6 +10,7 @@ const C = {
 
 const suitColor = s => (s === "hearts" || s === "diamonds") ? "#d0302a" : "#111111";
 
+const WS_URL = import.meta.env.VITE_WS_URL || "ws://localhost:8000/ws";
 // ─── Card ────────────────────────────────────────────────────────────────────
 function Card({ card, hidden, small, glow }) {
   if (!card && !hidden) return null;
