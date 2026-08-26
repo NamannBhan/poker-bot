@@ -133,12 +133,11 @@ Tightened the price the bot is willing to pay when facing a raise. Each change g
 
 ## Deployment
 
-| Service | What it hosts | URL |
+| Service | What it hosts |
 |---|---|---|
-| Railway | FastAPI backend | `wss://your-app.up.railway.app/ws` |
-| Vercel | React frontend | `https://your-app.vercel.app` |
+| Render | FastAPI backend |
+| Vercel | React frontend |
 
-**Railway free tier:** ~$5 credit/month. Light usage costs $1–3/month.
 
 ---
 
