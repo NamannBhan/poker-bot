@@ -131,16 +131,6 @@ Tightened the price the bot is willing to pay when facing a raise. Each change g
 
 ---
 
-## Deployment
-
-| Service | What it hosts |
-|---|---|---|
-| Render | FastAPI backend |
-| Vercel | React frontend |
-
-
----
-
 ## What's Next (maybe)
 
 - [ ] Side pot handling for multi-way all-ins
