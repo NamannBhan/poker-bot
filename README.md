@@ -2,7 +2,7 @@
 
 A Texas Hold'em AI that doesn't just play poker — it *studies* you, adapts to your tendencies, and tries to take your chips. Built with a FastAPI WebSocket backend, a React frontend, and a strategy engine that models opponents in real time.
 
-To play the game: https://poker-bot-ruddy.vercel.app/
+To play the game: https://poker-bot-ruddy.vercel.app/  (note: it can take few seconds to load, currently hosted on Render's free tier)
 
 ---
 
