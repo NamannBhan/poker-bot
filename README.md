@@ -26,7 +26,7 @@ To play the game: https://poker-bot-ruddy.vercel.app/  (note: it can take few se
 | Frontend | React + Vite |
 | Backend | FastAPI + WebSockets |
 | Hand evaluation | [treys](https://github.com/ihendley/treys) |
-| Deployment | Vercel (frontend) + Railway (backend) |
+| Deployment | Vercel (frontend) + Render (backend) |
 
 ---
 
